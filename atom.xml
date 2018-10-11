@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-07T11:11:20.300Z</updated>
+  <updated>2018-10-11T14:23:07.579Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux基础一</title>
+    <link href="http://yoursite.com/2018/10/11/Linux%E5%9F%BA%E7%A1%80%E4%B8%80/"/>
+    <id>http://yoursite.com/2018/10/11/Linux基础一/</id>
+    <published>2018-10-11T14:06:59.000Z</published>
+    <updated>2018-10-11T14:23:07.579Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-什么是操作系统&quot;&gt;&lt;a href=&quot;#1-什么是操作系统&quot; class=&quot;headerlink&quot; title=&quot;1.什么是操作系统&quot;&gt;&lt;/a&gt;1.什么是操作系统&lt;/h2&gt;&lt;p&gt;如智能机器人，智能家居等，用C语言直接操作硬件，但我们用手机QQ发送消息时，QQ是应用程序，无法直接操作硬件，这个时候，操作系统就在应用程序和硬件中起媒介作用，让应用程序得以间接操作硬件。
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2018/10/07/hello-world/"/>
     <id>http://yoursite.com/2018/10/07/hello-world/</id>
     <published>2018-10-07T11:11:20.300Z</published>
-    <updated>2018-10-07T11:11:20.300Z</updated>
+    <updated>2018-10-11T14:23:05.747Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.
     
     </summary>
     
