@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-15T02:45:22.399Z</updated>
+  <updated>2018-10-15T13:51:04.244Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《精通Python网络爬虫》韦玮著</title>
+    <link href="http://yoursite.com/2018/10/15/%E3%80%8A%E7%B2%BE%E9%80%9APython%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E3%80%8B%E9%9F%A6%E7%8E%AE%E8%91%97/"/>
+    <id>http://yoursite.com/2018/10/15/《精通Python网络爬虫》韦玮著/</id>
+    <published>2018-10-15T13:27:36.000Z</published>
+    <updated>2018-10-15T13:51:04.244Z</updated>
+    
+    <summary type="html">
+    
+      本篇是学习韦玮老师所著《精通Python网络爬虫》中核心技术篇后的总结，主要有Urllib库与URLError异常处理，Cookie的使用，爬虫的浏览器伪装技术三节
+    
+    </summary>
+    
+      <category term="Python爬虫" scheme="http://yoursite.com/categories/Python%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="HTTP" scheme="http://yoursite.com/tags/HTTP/"/>
+    
+      <category term="URLError" scheme="http://yoursite.com/tags/URLError/"/>
+    
+  </entry>
   
   <entry>
     <title>编辑器之神-vim</title>
