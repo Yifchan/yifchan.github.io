@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-11T14:23:07.579Z</updated>
+  <updated>2018-10-15T02:45:22.399Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,18 +17,64 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>编辑器之神-vim</title>
+    <link href="http://yoursite.com/2018/10/14/Linux%E7%BC%96%E8%BE%91%E5%99%A8%E4%B9%8B%E7%A5%9E-vim/"/>
+    <id>http://yoursite.com/2018/10/14/Linux编辑器之神-vim/</id>
+    <published>2018-10-14T15:19:54.000Z</published>
+    <updated>2018-10-15T02:45:22.399Z</updated>
+    
+    <summary type="html">
+    
+      本篇记录了vim几乎所有常用到的编辑命令
+    
+    </summary>
+    
+      <category term="Linux基础" scheme="http://yoursite.com/categories/Linux%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+      <category term="vim" scheme="http://yoursite.com/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux基础二</title>
+    <link href="http://yoursite.com/2018/10/13/Linux%E5%9F%BA%E7%A1%80%E4%BA%8C/"/>
+    <id>http://yoursite.com/2018/10/13/Linux基础二/</id>
+    <published>2018-10-13T01:52:04.000Z</published>
+    <updated>2018-10-15T02:54:16.136Z</updated>
+    
+    <summary type="html">
+    
+      本篇包含了配置linux的方法,以及linux常用命令
+    
+    </summary>
+    
+      <category term="Linux基础" scheme="http://yoursite.com/categories/Linux%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux基础一</title>
     <link href="http://yoursite.com/2018/10/11/Linux%E5%9F%BA%E7%A1%80%E4%B8%80/"/>
     <id>http://yoursite.com/2018/10/11/Linux基础一/</id>
     <published>2018-10-11T14:06:59.000Z</published>
-    <updated>2018-10-11T14:23:07.579Z</updated>
+    <updated>2018-10-15T02:40:34.143Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;1-什么是操作系统&quot;&gt;&lt;a href=&quot;#1-什么是操作系统&quot; class=&quot;headerlink&quot; title=&quot;1.什么是操作系统&quot;&gt;&lt;/a&gt;1.什么是操作系统&lt;/h2&gt;&lt;p&gt;如智能机器人，智能家居等，用C语言直接操作硬件，但我们用手机QQ发送消息时，QQ是应用程序，无法直接操作硬件，这个时候，操作系统就在应用程序和硬件中起媒介作用，让应用程序得以间接操作硬件。
+      本篇记录了Linux的发展进程及一些常用命令
     
     </summary>
     
+      <category term="Linux基础" scheme="http://yoursite.com/categories/Linux%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
   </entry>
   
