@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-15T13:51:04.244Z</updated>
+  <updated>2018-12-02T09:31:24.345Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pymysql及相关拓展</title>
+    <link href="http://yoursite.com/2018/12/02/pymysql%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%8B%93%E5%B1%95/"/>
+    <id>http://yoursite.com/2018/12/02/pymysql及相关拓展/</id>
+    <published>2018-12-02T09:05:38.000Z</published>
+    <updated>2018-12-02T09:31:24.345Z</updated>
+    
+    <summary type="html">
+    
+      python用于操作数据的pymysql模块，及相关的视图，触发器，函数，存储过程，事务，SQL注入等相关拓展。
+    
+    </summary>
+    
+      <category term="mysql" scheme="http://yoursite.com/categories/mysql/"/>
+    
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+      <category term="pymysql" scheme="http://yoursite.com/tags/pymysql/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>《精通Python网络爬虫》韦玮著</title>
