@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="YifChan,python,git" />
+  <meta name="keywords" content="mysql," />
 
 
 
@@ -81,17 +81,18 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="description" content="pymysql的基础知识，包括数据库的创建，操作数据库，创建表，操作表，还有最重要的增删改查">
+<meta name="keywords" content="mysql">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2018/10/07/hello-world/index.html">
+<meta property="og:title" content="数据库基础">
+<meta property="og:url" content="http://yoursite.com/2018/12/03/数据库基础/index.html">
 <meta property="og:site_name" content="YifChan&#39;s Note">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta property="og:description" content="pymysql的基础知识，包括数据库的创建，操作数据库，创建表，操作表，还有最重要的增删改查">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-11T14:23:05.747Z">
+<meta property="og:updated_time" content="2018-12-03T01:29:03.541Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="twitter:title" content="数据库基础">
+<meta name="twitter:description" content="pymysql的基础知识，包括数据库的创建，操作数据库，创建表，操作表，还有最重要的增删改查">
 
 
 
@@ -121,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/10/07/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/12/03/数据库基础/"/>
 
 
 
 
 
-  <title>Hello World | YifChan's Note</title>
+  <title>数据库基础 | YifChan's Note</title>
   
 
 
@@ -288,7 +289,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/07/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/03/数据库基础/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="YifChan">
@@ -305,7 +306,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">数据库基础</h1>
         
 
         <div class="post-meta">
@@ -317,8 +318,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-07T19:11:20+08:00">
-                2018-10-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-03T09:25:19+08:00">
+                2018-12-03
               </time>
             
 
@@ -328,6 +329,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/mysql/" itemprop="url" rel="index">
+                    <span itemprop="name">mysql</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -340,6 +363,10 @@
 
           
 
+          
+              <div class="post-description">
+                  pymysql的基础知识，包括数据库的创建，操作数据库，创建表，操作表，还有最重要的增删改查
+              </div>
           
 
         </div>
@@ -355,15 +382,152 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.<a id="more"></a></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h2 id="1-数据库操作"><a href="#1-数据库操作" class="headerlink" title="1.数据库操作"></a>1.数据库操作</h2><p>1.创建数据库：create database databasename default charset utf8;<br>2.删除数据库：drop database databasename;<br>3.显示已有数据库：show databases;</p>
+<h2 id="2-表操作"><a href="#2-表操作" class="headerlink" title="2.表操作"></a>2.表操作</h2><p>1.创建表：<br>create table tablename(<br>id int not null auto_increment primary key,<br>name char(20) not null,<br>age int(10),<br>gender varchar(10) not null default 男<br>)engine=innodb default charset=utf8;<br>2.删除表：drop table tablename;<br>3.显示表：show tables;<br>4.清空表：delete from tablename;/truncate table tablename;<br>5.重命名表：rename table odlname to newname;</p>
+<p>注释：<br>not null：设置该项不能为空<br>auto_increment：自增<br>primary key：设置为主键<br>default：默认设置为xxx<br>engine=innodb：利用引擎innodb支持事务回滚(比如转账业务，如果中断的话可以将钱转回原账户)</p>
+<p>其他：<br>1.在mysql中默认不支持事务回滚，如果想要的话，可以设置引擎为inodb,mysql中有两个引擎，    除了inodb还有myisam,myisam会比innodb存储速度更快，但为了支持事务，一般我们就用innodb，支持事务，原子性操作。<br>2.清空表的两个语句是有区别的：delete from tablename;清空表后从原来的数字之后自增，比如原来有五条数据，清空后从6开始自增。truncate table tablename;清空表后从1开始重新自增。</p>
+<h2 id="3-表内容操作"><a href="#3-表内容操作" class="headerlink" title="3.表内容操作"></a>3.表内容操作</h2><p><strong>增</strong><br>insert into tablename(name,age) values(‘诸葛亮’，42);</p>
+<p><strong>删</strong><br>delete from tablename;<br>truncate table tablename;<br>delete from t1 where id&lt;6;</p>
+<p><strong>改</strong><br>updata t1 set age=18;<br>updata t1 set age=18 where age=17;</p>
+<p><strong>查</strong><br>select * from tableneme;<br>select name from t1;<br>select id,name from t1;</p>
+<h2 id="4-数据类型"><a href="#4-数据类型" class="headerlink" title="4.数据类型"></a>4.数据类型</h2><p><strong>数字:int,tinyint,bigint</strong><br>1.tinyint:小整数，数据类型用于保存一些范围的整数数值范围：<br>有符号：-128 ～ 127.<br>无符号：0 ～ 255</p>
+<p>2.int:整数，数据类型用于保存一些范围的整数数值范围：<br>有符号：-2147483648 ～ 2147483647<br>无符号：0 ～ 4294967295</p>
+<p>3.bigint:<br>大整数，数据类型用于保存一些范围的整数数值范围：<br>有符号：-9223372036854775808 ～ 9223372036854775807<br>无符号：0  ～  18446744073709551615</p>
+<p>4.decimal[(m[,d])]:<br>准确的小数值，m是数字总个数（负号不算），d是小数点后个数。 m最大值为65，d最大值为30。<br>对于精确数值计算时需要用此类型<br>decaimal能够存储精确值的原因在于其内部按照字符串存储。</p>
+<p>5.float[(M,D)]:<br>单精度浮点数（非准确小数值），m是数字总个数，d是小数点后个数。<br>数值越大，越不准确</p>
+<p>6.double[(M,D)]:<br>双精度浮点数（非准确小数值），m是数字总个数，d是小数点后个数。<br>数值越大，越不准确</p>
+<p><strong>字符串:char,varchar</strong><br>1.char(m):<br>char数据类型用于表示固定长度的字符串，可以包含最多达255个字符。<br>即使数据小于m长度，也会占用m长度</p>
+<p>2.varchar(m):<br>varchar数据类型用于表示变长的字符串，可以包含最多达255个字符。</p>
+<p>3.text<br>text数据类型用于保存变长的大字符串，可以组多到65535 (2**16 − 1)个字符。</p>
+<p>4.mediumtext<br>范围：16 777 215 (2**24 − 1)字符。</p>
+<p>5.longtext<br>范围：4 294 967 295 or 4GB (2**32 − 1)个字符。</p>
+<p>注意：<br>char占用固定空间，容易浪费空间，但查询速度快;<br>varchar有多少占多少，不浪费，但查询速度慢;<br>速度快慢原因在于char占用固定空间，查询直接跳过固定空间往后查询，但varchar要慢慢遍历才行;<br>cahr和varchar没有说哪个更优，我们要学会搭配，将定长的如电话号码用char放在前列，不定长列用varchar放在后面(优化数据库时);</p>
+<p><strong>时间类型:data, time,datatime,year等</strong><br>一般常用到的时间类型为datatime,其他做了解就行</p>
+<p><strong>集合，枚举:set,enum</strong><br>1.set:<br>集合插入时从创建表时的指定字符中任意组合，不能是指定字符之外的组合，较少用</p>
+<p>2.enum:<br>枚举插入时从创建表时的指定字符中任选其一，不能时之外的，比set常用</p>
+<h2 id="5-外键"><a href="#5-外键" class="headerlink" title="5.外键"></a>5.外键</h2><p>外键作用：<br>1.节省空间，当数据量足够大时，用外键id来代替字符串会大大节省空间<br>2.增加约束，只能写外键表里面id</p>
+<p>外键设置：constraint fk_user_depar foreign key (depar_id) reference department(id)</p>
+<p>思考：当设置外键时，为什么要在外键depar_id上加()?是不是意味着我能够在括号内设置多个外键(即能否(depart_id,p_id)这样)？</p>
+<p>主键：一个表只能有一个主键，但一个主键可以由多列组成<br>eg:<br>    create table test1(id int not null auto_increment,<br>    pid int not null,<br>    name char(20) not null,<br>    primary key (id,pid)<br>    )engine=innodb default charset=utf8;</p>
+<p>解答：若是常规的设置是不能的,但如果是如上面这样创建的主键是两列的话，那么设置外键时，就可以把那两列设置成外键，即：<br>    create table test2(tid int not null auto_increment primary key,<br>    tpid int not null,<br>    name char(20) not null,<br>    <strong>constraint fk_1_2 foreign key (tid,tpid) references test1(id,pid)</strong><br>    )engine=innodb default charset=utf8;</p>
+<p>注意：foreign key的名字是不能重复的</p>
+<p><strong>一对一</strong><br>一百个人中只有两个人是主管有权限登录管理系统，这个时候就不应该在用户表中设置一列只有那两个人有的登录密码了，而是新建一张管理员表，设置id自增列，设置user_id的外键，再设置一个密码列。<br>    create table userinfo1(<br>        id int auto_increment primary key,<br>        name char(10),<br>        gender char(10),<br>        email varchar(64)<br>    )engine=innodb default charset=utf8;</p>
+<pre><code>create table admin(
+    id int not null auto_increment primary key,
+    username varchar(64) not null,
+    password VARCHAR(64) not null,
+    user_id int not null,
+    unique uq_u1 (user_id),
+    CONSTRAINT fk_admin_u1 FOREIGN key (user_id) REFERENCES userinfo1(id)
+)engine=innodb default charset=utf8;
+</code></pre><p><strong>一对多</strong><br>在员工部门表中，一个部门对应很多个员工，而每个员工只有一个部门</p>
+<p><strong>多对多</strong><br>相亲网站，一个人可以和多个人约会，双向的多对多就是多对多了<br>公司服务器，一个人管理多台机器，几个人共用一台机器<br>当多对多时，一般引出第三张表</p>
+<p>在多对多中不一定要设置唯一索引，主要看需求</p>
+<pre><code>create table userinfo2(
+    id int auto_increment primary key,
+    name char(10),
+    gender char(10),
+    email varchar(64)
+)engine=innodb default charset=utf8;
+
+create table host(
+    id int auto_increment primary key,
+    hostname char(64)
+)engine=innodb default charset=utf8;
+
+
+create table user2host(
+    id int auto_increment primary key,
+    userid int not null,
+    hostid int not null,
+    unique uq_user_host (userid,hostid),
+    CONSTRAINT fk_u2h_user FOREIGN key (userid) REFERENCES userinfo2(id),
+    CONSTRAINT fk_u2h_host FOREIGN key (hostid) REFERENCES host(id)
+)engine=innodb default charset=utf8;
+</code></pre><h2 id="自增"><a href="#自增" class="headerlink" title="自增"></a>自增</h2><p><strong>查看表创建语句</strong><br>查看表的创建语句：desc test1;/show create table test1;/show create table test1 \G;</p>
+<p><strong>设置自增值</strong><br>前面我们有提到，如果用truncate from test1;的话，会清空表内的数据，假设原来有五条数据，那么下次数据的自增会从6开始，那么我们可不可以手动设置自增的值比如下次从10开始呢？当然可以！方法如下：<br>设置下次自增的值:alter table test1 auto_increment=10;<br>当修改自增为10之后下次自增id为10，但下次再添加数据时自增id仍然按11开始。</p>
+<p><strong>查看设置步长</strong><br>如果我们想要一个表的id每次自增的间隔为2，即(2,4,6,8,…)这样，怎么办？这里，我们就要用到步长了，不过很遗憾的是，mysql并不能像其他类似于sqlServer这样的给某个表单独的设置步长，不过mysql也提供了相应的会话级别和全局级别的步长，其中，会话级别的步长你可以理解为某个单独的cmd窗口，即只能在这个窗口上的表的步长才是你设置的步长。<br>查看步长：show session variables like ‘auto_inc%’;<br>设置会话步长：set session auto_increment_increment=2;</p>
+<p>下面的了解即可：<br>查看全局步长：show global variables like ‘auto_inc%’;<br>设置全局步长：set global auto_increment_increment=2;<br>设置会话自增起始值：set session auto_increment_offset=10;<br>设置全局自增起始值：set global auto_increment_offset=10;</p>
+<h2 id="唯一索引"><a href="#唯一索引" class="headerlink" title="唯一索引"></a>唯一索引</h2><p>唯一索引具有不可重复性（1,2,3,4…），若为联合唯一索引，则两列共同组合不可重复(1 1,1 2,2 1,…)</p>
+<p>作用：<br>1.约束不能重复<br>2.加速查找<br>主键也能起到相同的作用，主键和索引的区别为：主键不能为空，唯一索引可以为空</p>
+<p>唯一索引：<br>    create table t1(id int not null …,<br>    num int,<br>    unique uql (num)<br>    )…</p>
+<p>联合唯一索引：<br>    create table t1(id int not null …,<br>    num int,<br>    xxx int,<br>    unique uql (num,xxx)<br>    )…</p>
+<h2 id="数据库-增"><a href="#数据库-增" class="headerlink" title="数据库-增"></a>数据库-增</h2><p>增加一行数据：<br>    insert into test1(name,age) values(‘杨玉环’，25);</p>
+<p>增加多行数据：<br>    insert into test1(name,age) values(‘李白’，30)，（’奕星’，15);</p>
+<p>从其他表中导入数据：<br>    insert into test1(name,age) select name,age from test2; #从表test2中插入部分数据到表test1中</p>
+<h2 id="数据库-删"><a href="#数据库-删" class="headerlink" title="数据库-删"></a>数据库-删</h2><pre><code>delete from test1;
+delete from test1 where id=2;
+delete from test1 where id!=2;
+delete from test1 where id&lt;=2;
+delete from test1 where id&gt;=2;
+delete from test1 where id&gt;=2 and age=18;
+delete from test1 where id&gt;=2 or age=18;
+</code></pre><h2 id="数据库-改"><a href="#数据库-改" class="headerlink" title="数据库-改"></a>数据库-改</h2><pre><code>update test1 set name=&apos;花木兰&apos; where id&gt;3 and age=20;
+update test1 set name=&apos;百里守约&apos;,age=22 where id&gt;6 and age=25;
+</code></pre><h1 id="数据库-查"><a href="#数据库-查" class="headerlink" title="数据库-查"></a>数据库-查</h1><p>因为数据库的查较重要，故单开一节重点讲数据库的查询<br>    select * from test1;</p>
+<pre><code>select id,name from test1;
+
+select id,name from test1 where id&gt;3 and age=18;
+
+select id,name as cname from test1 where id&gt;3 or age=18;
+
+select id,name,11 from tset1;
+</code></pre><p>其他：</p>
+<h2 id="1-条件"><a href="#1-条件" class="headerlink" title="1.条件"></a>1.条件</h2><pre><code>select * from test1 where id!=2;  &lt;==&gt;  select * from test1 where id &lt;&gt; 2;
+
+select * from test1 where id in (1,5,10);
+
+select * from test1 where id not in (1,5,10);
+
+select * from test1 where id between 2 and 6; #闭区间
+
+select * from test1 where name in (select id from test2);
+</code></pre><h2 id="2-通配符-模糊匹配"><a href="#2-通配符-模糊匹配" class="headerlink" title="2.通配符(模糊匹配)"></a>2.通配符(模糊匹配)</h2><pre><code>select * from test1 where name like &apos;李%&apos;; #显示表test1中所有名字以&apos;李&apos;开头的人的数据
+
+select * from test1 where name like &apos;_星&apos;;
+
+select * from test1 where name like &apos;%木%&apos;；
+</code></pre><p>注释：%代表可以有任意个字符，<em>代表只能有一个字符；如’李%’可以是李白，李云龙，李大本事；而’李</em>‘只能是李白，李黑，李逵。</p>
+<h2 id="3-分页"><a href="#3-分页" class="headerlink" title="3.分页"></a>3.分页</h2><pre><code>select * from test1 limit 10; #取前十条数据
+
+select * from test1 limit 2,4; #从2开始，往后取4条数据，即(3,4,5,6)；
+
+select * from test1 limit 20,10; &lt;==&gt; 
+select * from test1 limit 10 offset 20;
+</code></pre><p>注释：(limit a,b;)中，是从a开始，往后取b条数据；(limit a offset b;)中，limit后面跟着的限制条数a意思为只取a条数据，offset后面跟着的起始条数b意思为从b后面一条开始取数据；</p>
+<p>不能直接取后10条数据，只能先将顺序颠倒，再取前10条数据即为取后10条数据；</p>
+<h2 id="4-排序"><a href="#4-排序" class="headerlink" title="4.排序"></a>4.排序</h2><p>select * from test1;</p>
+<p>顺序排序：select * from test1 order by id asc;</p>
+<p>逆序排序：select * from test1 order by id desc;</p>
+<p>select * from test1 order by id desc,age asc;  #根据 “列1” 从大到小排列，如果相同则按列2从小到大排序</p>
+<p>取后10条数据：select * from test1 order by id desc limit 10;</p>
+<h2 id="5-分组"><a href="#5-分组" class="headerlink" title="5.分组"></a>5.分组</h2><p>聚合函数：count,max,min,sum,avg<br>select count(id),part_id from userinfo group by part_id;</p>
+<p>select max(id),part_id from userinfo group by part_id;</p>
+<p>对于聚合函数结果进行二次筛选时,必须使用having<br>select count(id),part_id from userinfo group by part_id having count(id)&gt;10;</p>
+<h2 id="6-连表查询"><a href="#6-连表查询" class="headerlink" title="6.连表查询"></a>6.连表查询</h2><p>select <em> from admin,user where admin.user_id=user.id;<br>&lt;==&gt;<br>select </em> from admin left join user on admin.user_id=user.id;</p>
+<p>select * from user left join admin on admin.user_id=user.id; # user左边全部显示</p>
+<p>select * from user left join admin on admin.user_id=user.id; # user右边全部显示</p>
+<p> select * from user inner join admin on admin.user_id=user.id; # 将出现null时一行隐藏</p>
+<pre><code>select 
+    score.sid,
+    student.sid 
+    from 
+score
+
+left join student on score.student_id = student.sid
+
+left join course on score.course_id = course.cid
+
+left join class on student.class_id = class.cid
+
+left join teacher on course.teacher_id=teacher.tid
+</code></pre><h2 id="连表时where和left-join的区别"><a href="#连表时where和left-join的区别" class="headerlink" title="连表时where和left join的区别"></a>连表时where和left join的区别</h2><p>在其他数据库中是有区别的，但在现版本的mysql中where和on基本一样。在测试过程中发现还是有些许区别的。如下：<br>创建一个部门表，创建一个员工表，在用where连表查询时发现，并不会按照employee1的id进行排序，而是按照department1的部门顺序(id)进行排序，看起来不习惯；而我们用left join查询时会发现，它是按照employee1的id进行排序的，更符合我们的观看习惯。</p>
+<p>所以，在连表查询时，建议用left join 进行查询，如果非要用where并且还想要符合观看习惯的话，可以用</p>
+<pre><code>select * from employee1 left join department1 on employee1.part_id=department1.id order by employee1.id asc;
+</code></pre><p>达到与</p>
+<pre><code>select *\ from employee1 left join department1 on employee1.part_id=department1.id;
+</code></pre><p>相同的效果</p>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>1.更新数据时是update 而不是updata;<br>2.设置外键时是references 而不是reference;<br>3.创建数据库时为default charset utf8;创建表时为default charset=utf8;</p>
 
       
     </div>
@@ -379,6 +543,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/mysql/" rel="tag"># mysql</a>
+          
+        </div>
+      
 
       
       
@@ -388,15 +558,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/12/03/ORM框架之SQLAlchemy/" rel="next" title="ORM框架之SQLAlchemy">
+                <i class="fa fa-chevron-left"></i> ORM框架之SQLAlchemy
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/10/11/Linux基础一/" rel="prev" title="Linux基础一">
-                Linux基础一 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -555,7 +725,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-数据库操作"><span class="nav-text">1.数据库操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-表操作"><span class="nav-text">2.表操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-表内容操作"><span class="nav-text">3.表内容操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-数据类型"><span class="nav-text">4.数据类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-外键"><span class="nav-text">5.外键</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自增"><span class="nav-text">自增</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#唯一索引"><span class="nav-text">唯一索引</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库-增"><span class="nav-text">数据库-增</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库-删"><span class="nav-text">数据库-删</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据库-改"><span class="nav-text">数据库-改</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据库-查"><span class="nav-text">数据库-查</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-条件"><span class="nav-text">1.条件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-通配符-模糊匹配"><span class="nav-text">2.通配符(模糊匹配)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-分页"><span class="nav-text">3.分页</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-排序"><span class="nav-text">4.排序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-分组"><span class="nav-text">5.分组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-连表查询"><span class="nav-text">6.连表查询</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#连表时where和left-join的区别"><span class="nav-text">连表时where和left join的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注意"><span class="nav-text">注意</span></a></li></ol></div>
             
 
           </div>

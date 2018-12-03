@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-03T01:20:05.206Z</updated>
+  <updated>2018-12-03T01:29:03.541Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库基础</title>
+    <link href="http://yoursite.com/2018/12/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80/"/>
+    <id>http://yoursite.com/2018/12/03/数据库基础/</id>
+    <published>2018-12-03T01:25:19.000Z</published>
+    <updated>2018-12-03T01:29:03.541Z</updated>
+    
+    <summary type="html">
+    
+      pymysql的基础知识，包括数据库的创建，操作数据库，创建表，操作表，还有最重要的增删改查
+    
+    </summary>
+    
+      <category term="mysql" scheme="http://yoursite.com/categories/mysql/"/>
+    
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>ORM框架之SQLAlchemy</title>
