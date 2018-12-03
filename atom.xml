@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-02T09:31:24.345Z</updated>
+  <updated>2018-12-03T01:20:05.206Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ORM框架之SQLAlchemy</title>
+    <link href="http://yoursite.com/2018/12/03/ORM%E6%A1%86%E6%9E%B6%E4%B9%8BSQLAlchemy/"/>
+    <id>http://yoursite.com/2018/12/03/ORM框架之SQLAlchemy/</id>
+    <published>2018-12-03T01:10:10.000Z</published>
+    <updated>2018-12-03T01:20:05.206Z</updated>
+    
+    <summary type="html">
+    
+      ORM框架之SQLAlchemy，将mysql对象化，包括创建表，操作表的增删改查等等
+    
+    </summary>
+    
+      <category term="mysql" scheme="http://yoursite.com/categories/mysql/"/>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+      <category term="SQLAlchemy" scheme="http://yoursite.com/tags/SQLAlchemy/"/>
+    
+      <category term="ORM" scheme="http://yoursite.com/tags/ORM/"/>
+    
+  </entry>
   
   <entry>
     <title>pymysql及相关拓展</title>
