@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="YifChan&#39;s Note">
 <meta property="og:description" content="pymysql的基础知识，包括数据库的创建，操作数据库，创建表，操作表，还有最重要的增删改查">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-03T01:29:03.541Z">
+<meta property="og:updated_time" content="2018-12-03T01:30:35.020Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据库基础">
 <meta name="twitter:description" content="pymysql的基础知识，包括数据库的创建，操作数据库，创建表，操作表，还有最重要的增删改查">
@@ -382,7 +382,8 @@
       
 
       
-        <h2 id="1-数据库操作"><a href="#1-数据库操作" class="headerlink" title="1.数据库操作"></a>1.数据库操作</h2><p>1.创建数据库：create database databasename default charset utf8;<br>2.删除数据库：drop database databasename;<br>3.显示已有数据库：show databases;</p>
+        <p>注：同样，本文尚未完全整理，纯属占坑</p>
+<h2 id="1-数据库操作"><a href="#1-数据库操作" class="headerlink" title="1.数据库操作"></a>1.数据库操作</h2><p>1.创建数据库：create database databasename default charset utf8;<br>2.删除数据库：drop database databasename;<br>3.显示已有数据库：show databases;</p>
 <h2 id="2-表操作"><a href="#2-表操作" class="headerlink" title="2.表操作"></a>2.表操作</h2><p>1.创建表：<br>create table tablename(<br>id int not null auto_increment primary key,<br>name char(20) not null,<br>age int(10),<br>gender varchar(10) not null default 男<br>)engine=innodb default charset=utf8;<br>2.删除表：drop table tablename;<br>3.显示表：show tables;<br>4.清空表：delete from tablename;/truncate table tablename;<br>5.重命名表：rename table odlname to newname;</p>
 <p>注释：<br>not null：设置该项不能为空<br>auto_increment：自增<br>primary key：设置为主键<br>default：默认设置为xxx<br>engine=innodb：利用引擎innodb支持事务回滚(比如转账业务，如果中断的话可以将钱转回原账户)</p>
 <p>其他：<br>1.在mysql中默认不支持事务回滚，如果想要的话，可以设置引擎为inodb,mysql中有两个引擎，    除了inodb还有myisam,myisam会比innodb存储速度更快，但为了支持事务，一般我们就用innodb，支持事务，原子性操作。<br>2.清空表的两个语句是有区别的：delete from tablename;清空表后从原来的数字之后自增，比如原来有五条数据，清空后从6开始自增。truncate table tablename;清空表后从1开始重新自增。</p>
